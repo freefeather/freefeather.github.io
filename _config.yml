@@ -6,7 +6,7 @@ slogan: "Center of Inspiration"
 description: "We believe that in a place with acceptance and initiative, we are able to inspire each other; bringing together creative and collaborative activities."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://freefeather.github.io/"
 
 # Build settings
 markdown: kramdown
