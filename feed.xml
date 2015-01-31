@@ -2,20 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Free Feather</title>
-    <description>We believe that in a place with acceptance and initiative, we are able to inspire each other; bringing together creative and collaborative activities.</description>
-    <link>http://freefeather.github.io/http://freefeather.github.io//</link>
-    <atom:link href="http://freefeather.github.io/http://freefeather.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Jan 2015 16:17:05 +0200</pubDate>
-    <lastBuildDate>Wed, 28 Jan 2015 16:17:05 +0200</lastBuildDate>
+    <description>We believe that with togetherness, creativity, and initiative we are able to inspire each other, bringing together collaborative activities.</description>
+    <link>http://freefeather.github.io//</link>
+    <atom:link href="http://freefeather.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 31 Jan 2015 02:54:11 +0200</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2015 02:54:11 +0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Subject: ART</title>
+        <description>&lt;p&gt;Get to know one’s thoughts or feelings through many forms of art; music, paintings, sculptures and much more.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 00:00:00 +0200</pubDate>
+        <link>http://freefeather.github.io//subject/art</link>
+        <guid isPermaLink="true">http://freefeather.github.io//subject/art</guid>
+        
+        
+        <category>subject</category>
+        
+      </item>
     
       <item>
         <title>Question: Why did the Chicken cross the road?</title>
         <description>&lt;p&gt;To get to the other side.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 19:54:46 +0300</pubDate>
-        <link>http://freefeather.github.io/http://freefeather.github.io//question/your-project-name</link>
-        <guid isPermaLink="true">http://freefeather.github.io/http://freefeather.github.io//question/your-project-name</guid>
+        <link>http://freefeather.github.io//question/your-project-name</link>
+        <guid isPermaLink="true">http://freefeather.github.io//question/your-project-name</guid>
         
         
         <category>question</category>
@@ -44,8 +57,8 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 
 </description>
         <pubDate>Fri, 25 Apr 2014 19:54:46 +0300</pubDate>
-        <link>http://freefeather.github.io/http://freefeather.github.io//blog/wordpress/photoshop/time-to-change-your-apps</link>
-        <guid isPermaLink="true">http://freefeather.github.io/http://freefeather.github.io//blog/wordpress/photoshop/time-to-change-your-apps</guid>
+        <link>http://freefeather.github.io//blog/wordpress/photoshop/time-to-change-your-apps</link>
+        <guid isPermaLink="true">http://freefeather.github.io//blog/wordpress/photoshop/time-to-change-your-apps</guid>
         
         
         <category>blog</category>
@@ -78,8 +91,8 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 
 </description>
         <pubDate>Fri, 25 Apr 2014 19:54:46 +0300</pubDate>
-        <link>http://freefeather.github.io/http://freefeather.github.io//blog/web-design/development/our-new-logo-is-here</link>
-        <guid isPermaLink="true">http://freefeather.github.io/http://freefeather.github.io//blog/web-design/development/our-new-logo-is-here</guid>
+        <link>http://freefeather.github.io//blog/web-design/development/our-new-logo-is-here</link>
+        <guid isPermaLink="true">http://freefeather.github.io//blog/web-design/development/our-new-logo-is-here</guid>
         
         
         <category>blog</category>
@@ -112,8 +125,8 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 
 </description>
         <pubDate>Fri, 25 Apr 2014 19:54:46 +0300</pubDate>
-        <link>http://freefeather.github.io/http://freefeather.github.io//blog/tips&tricks/code-snippets/logo-design-contest-starts-now</link>
-        <guid isPermaLink="true">http://freefeather.github.io/http://freefeather.github.io//blog/tips&tricks/code-snippets/logo-design-contest-starts-now</guid>
+        <link>http://freefeather.github.io//blog/tips&tricks/code-snippets/logo-design-contest-starts-now</link>
+        <guid isPermaLink="true">http://freefeather.github.io//blog/tips&tricks/code-snippets/logo-design-contest-starts-now</guid>
         
         
         <category>blog</category>
@@ -133,8 +146,8 @@ It was popularised in the 1960s with the release of Letraset sheets containing L
 &lt;p&gt;It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
 </description>
         <pubDate>Tue, 15 Apr 2014 00:00:00 +0300</pubDate>
-        <link>http://freefeather.github.io/http://freefeather.github.io//project/your-project-name</link>
-        <guid isPermaLink="true">http://freefeather.github.io/http://freefeather.github.io//project/your-project-name</guid>
+        <link>http://freefeather.github.io//project/your-project-name</link>
+        <guid isPermaLink="true">http://freefeather.github.io//project/your-project-name</guid>
         
         
         <category>project</category>
