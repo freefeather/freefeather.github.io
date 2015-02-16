@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 
-    <title>Inspire Athens - Why did the Chicken cross the road?</title>
+    <title>Inspire Athens - Schedule</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -69,58 +69,130 @@
                 <div id="pagetitle">
     <div class="container">
         <div class="row">
-            <h2>Frequently asked</h2>
+            <h2>Schedule</h2>
         </div><!-- /row -->
     </div> <!-- /container -->   
     </div>       	
+ <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
 
-<div class="container mtb">
-    <div class="row">
-        <! -- SINGLE POST -->
-        <div class="col-lg-8">
-            <! -- Blog Post  -->
-          <a href="/question/your-project-name"><h3 class="ctitle">Why did the Chicken cross the road?</h3></a>
+          <div id="sch_list" class="list-group">
 
-            <p>To get to the other side.</p>
+            <a class="list-group-item active" map="warmup">
+              <p>11.00-12.00</p><p class="list-group-item-heading">Warming Up</p>
+            </a>
 
+            <a class="list-group-item" map="discussions">
+              <p>12.00-13.30</p><p class="list-group-item-heading">Discussions</p>
+            </a>
 
-            <div class="spacing"></div>
-            <!-- <h6>SHARE:</h6>
-            <p class="share">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
-            </p> -->
-        </div><! --/col-lg-8 -->
-        
-        <h4>Hello! My name is Raphael...</h4>
-<div class="hline"></div>
-<p>
-    I have been travelling in Europe since 2011 joining and hosting creative events. Now I figured a way where we can learn and create together, sustainably. Gatherings make this possible and here is <a href="/howto">how...</a>
-</p>
-<div style="text-align:center;margin-top: 10px;">
-<a href="/about"><img class="photograph" src="/assets/img/profile.jpg" alt="about vandog traveller"></a>
+            <a class="list-group-item" map="chill">
+              <p>13.30-14.00</p><p class="list-group-item-heading">Chill Out</p>
+            </a>
+
+                  <a class="list-group-item" map="workshops">
+              <p>14.00-15.30</p><p class="list-group-item-heading">Workshops</p>
+            </a>
+
+                  <a class="list-group-item" map="chill">
+              <p>15.30-16.00</p><p class="list-group-item-heading">Chill Out</p>
+            </a>
+
+                <a class="list-group-item" map="missions1">
+              <p>16.00-17.30</p><p class="list-group-item-heading">Missions Part 1</p>
+            </a>
+
+                 <a class="list-group-item" map="chill">
+              <p>17.30-18.00</p><p class="list-group-item-heading">Chill Out</p>
+            </a>
+
+                  <a class="list-group-item" map="missions2">
+              <p>18.00-19.30</p><p class="list-group-item-heading">Mission Part 2</p>
+            </a>
+
+                 <a class="list-group-item" map="chill">
+              <p>19.30-20.00</p><p class="list-group-item-heading">Chill Out</p>
+            </a>
+
+                 <a class="list-group-item" map="jam">
+              <p>20.00-00.00</p><p class="list-group-item-heading">Jam Session</p>
+            </a>
+
+          </div>
 </div>
-<div class="spacing"></div>
+        <div class="col-sm-4">
+        <p style="font-size:24px;margin-bottom: 20px;" id="det_title"></p>
+<div class="sch_det" id="warmup">
+<p>
+Before we get into any activities, we may introduce ourselves, get some conversations going. Meanwhile the organizers make sure that the space is prepared with the appropriate setup. 
+</p>
+<br>
+<p>
+After warming up the environment and ourselves, we begin the schedule that is divided in four stages:
+</p>
+<br>
+<p>Stage 1, Discussions.</p>
+<p>Stage 2, Workshops.</p>
+<p>Stage 3, Missions.</p>
+<p>Stage 4, Jam-Sessions.</p>
+<br>
+<p>
+Click on any of the schedule's sections on the left for more details
+</p>
+</div>
+
+<div class="sch_det" id="discussions">
+We begin a gathering with discussions in many forms. Talking about something in order to reach a decision or to exchange information, ideas, opinions, etc. A discussion can also help to resolve conflicts and enhance understanding.    
+</div>
+
+<div class="sch_det" id="chill">
+<p>
+chilling
+</p>
+</div>
+
+<div class="sch_det" id="workshops">
+We provide spaces of equipment and materials for the participants to get practically involved. We do our best to enhance our workshop spaces with more resources, bringing more possibilities. Workshops start after the discussions end.
+</div>
+
+<div class="sch_det" id="missions1">
+After workshops, we focus on creating products that can later be used in the market. This process helps us to sustain and develop our non-profit organization. Missions also help participants to build a portfolio of works.
+</div>
+
+<div class="sch_det" id="missions2">
+After workshops, we focus on creating products that can later be used in the market. This process helps us to sustain and develop our non-profit organization. Missions also help participants to build a portfolio of works.
+</div>
+
+<div class="sch_det" id="jam">
+A jam session is a way to be creative and have some fun! Finalizing the gathering, we can take part in various performances such as music, juggling, dancing, theater, poetry, etc.
+</div>
+</div>
+</div>
+</div>
+
+ <script type="text/javascript">
+       
+        document.addEventListener("DOMContentLoaded", function(event) { 
+   
+    var current = $("#sch_list").children(".active");
+    var title = $("#det_title");
+         $('.list-group-item').on('click',function(e){
+    var previous = $(this).closest(".list-group").children(".active");
+    current = $(e.target).closest(".list-group-item");
+   previous.removeClass('active'); // previous list-item
+  current.addClass('active'); // activated list-item
+  $("#"+previous.attr('map')).hide();
+  $("#"+current.attr('map')).show();
+  title.html(current.children(".list-group-item-heading").text());
+  });
+
+         current.trigger("click");
+});
+
+  </script>
 
 
-<h4>Latest News</h4>
-<div class="hline"></div>
-<ul class="popular-posts">
-    
-    <li>
-        <a href="/blog/logo-design-contest-starts-now"><img src=" /assets/img/blog/thumbs/ thumb03.jpg" alt="Popular Post">
-        </a>
-        <p><a href="/blog/logo-design-contest-starts-now">Getting Started Again</a>
-        </p>
-        <em>Posted on 25 Apr 2014</em>
-    </li>
-    
-</ul>
-
-    </div><! --/row -->
-</div><! --/container -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
